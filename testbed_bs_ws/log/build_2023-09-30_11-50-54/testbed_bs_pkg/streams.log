@@ -1,0 +1,39 @@
+[0.486s] Invoking command in '/home/tristan/Documents/rover-Testbed/testbed_bs_ws/src/testbed_bs_pkg': PYTHONPATH=/home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/prefix_override:/home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testbed_bs_pkg build --build-base /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build install --record /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/install.log --single-version-externally-managed
+[0.640s] running egg_info
+[0.640s] creating ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info
+[0.640s] writing ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/PKG-INFO
+[0.640s] writing dependency_links to ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/dependency_links.txt
+[0.640s] writing entry points to ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/entry_points.txt
+[0.640s] writing requirements to ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/requires.txt
+[0.640s] writing top-level names to ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/top_level.txt
+[0.641s] writing manifest file '../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/SOURCES.txt'
+[0.642s] reading manifest file '../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/SOURCES.txt'
+[0.642s] writing manifest file '../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build
+[0.642s] creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib
+[0.642s] creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg
+[0.643s] copying testbed_bs_pkg/testbed_bs.py -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg
+[0.643s] copying testbed_bs_pkg/__init__.py -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg
+[0.643s] running install
+[0.651s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.652s]   warnings.warn(
+[0.652s] running install_lib
+[0.652s] creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg
+[0.652s] copying /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg/testbed_bs.py -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg
+[0.653s] copying /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg/__init__.py -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg
+[0.653s] byte-compiling /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg/testbed_bs.py to testbed_bs.cpython-310.pyc
+[0.653s] byte-compiling /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg/__init__.py to __init__.cpython-310.pyc
+[0.653s] running install_data
+[0.653s] creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/ament_index
+[0.653s] creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/ament_index/resource_index
+[0.653s] creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/ament_index/resource_index/packages
+[0.653s] copying resource/testbed_bs_pkg -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/ament_index/resource_index/packages
+[0.653s] copying package.xml -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/testbed_bs_pkg
+[0.654s] running install_egg_info
+[0.655s] Copying ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info to /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg-0.0.0-py3.10.egg-info
+[0.655s] running install_scripts
+[0.668s] Installing testbed_bs script to /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/testbed_bs_pkg
+[0.668s] writing list of installed files to '/home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/install.log'
+[0.685s] Invoked command in '/home/tristan/Documents/rover-Testbed/testbed_bs_ws/src/testbed_bs_pkg' returned '0': PYTHONPATH=/home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/prefix_override:/home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testbed_bs_pkg build --build-base /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build install --record /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/install.log --single-version-externally-managed

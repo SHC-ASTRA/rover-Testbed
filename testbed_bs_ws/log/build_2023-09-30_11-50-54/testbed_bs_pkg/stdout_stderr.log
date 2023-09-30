@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info
+writing ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/requires.txt
+writing top-level names to ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/top_level.txt
+writing manifest file '../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build
+creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib
+creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg
+copying testbed_bs_pkg/testbed_bs.py -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg
+copying testbed_bs_pkg/__init__.py -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg
+copying /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg/testbed_bs.py -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg
+copying /home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/build/lib/testbed_bs_pkg/__init__.py -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg
+byte-compiling /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg/testbed_bs.py to testbed_bs.cpython-310.pyc
+byte-compiling /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/ament_index
+creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/ament_index/resource_index
+creating /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/ament_index/resource_index/packages
+copying resource/testbed_bs_pkg -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/share/testbed_bs_pkg
+running install_egg_info
+Copying ../../build/testbed_bs_pkg/testbed_bs_pkg.egg-info to /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/python3.10/site-packages/testbed_bs_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing testbed_bs script to /home/tristan/Documents/rover-Testbed/testbed_bs_ws/install/testbed_bs_pkg/lib/testbed_bs_pkg
+writing list of installed files to '/home/tristan/Documents/rover-Testbed/testbed_bs_ws/build/testbed_bs_pkg/install.log'

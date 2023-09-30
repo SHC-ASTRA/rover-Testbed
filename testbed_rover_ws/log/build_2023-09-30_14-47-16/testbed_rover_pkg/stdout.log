@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info
+writing ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/requires.txt
+writing top-level names to ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/top_level.txt
+writing manifest file '../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build
+creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib
+creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg
+copying testbed_rover_pkg/__init__.py -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg
+copying testbed_rover_pkg/testbed_rover.py -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg
+running install
+running install_lib
+creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg
+copying /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg/__init__.py -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg
+copying /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg/testbed_rover.py -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg
+byte-compiling /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg/testbed_rover.py to testbed_rover.cpython-310.pyc
+running install_data
+creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/ament_index
+creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/ament_index/resource_index
+creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/ament_index/resource_index/packages
+copying resource/testbed_rover_pkg -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/testbed_rover_pkg
+running install_egg_info
+Copying ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info to /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing testbed_rover script to /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/testbed_rover_pkg
+writing list of installed files to '/home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/install.log'

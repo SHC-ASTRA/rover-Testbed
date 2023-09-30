@@ -1,0 +1,3 @@
+[console_scripts]
+testbed_rover = testbed_rover_pkg.testbed_rover:main
+

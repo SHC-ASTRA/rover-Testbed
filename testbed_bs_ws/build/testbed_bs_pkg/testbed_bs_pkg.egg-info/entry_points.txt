@@ -1,0 +1,3 @@
+[console_scripts]
+testbed_bs = testbed_bs_pkg.testbed_bs:main
+

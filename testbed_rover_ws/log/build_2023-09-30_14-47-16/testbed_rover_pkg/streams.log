@@ -1,0 +1,39 @@
+[0.425s] Invoking command in '/home/tristan/Documents/rover-Testbed/testbed_rover_ws/src/testbed_rover_pkg': PYTHONPATH=/home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/prefix_override:/home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testbed_rover_pkg build --build-base /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build install --record /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/install.log --single-version-externally-managed
+[0.591s] running egg_info
+[0.591s] creating ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info
+[0.592s] writing ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/PKG-INFO
+[0.592s] writing dependency_links to ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/dependency_links.txt
+[0.592s] writing entry points to ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/entry_points.txt
+[0.592s] writing requirements to ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/requires.txt
+[0.592s] writing top-level names to ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/top_level.txt
+[0.592s] writing manifest file '../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/SOURCES.txt'
+[0.593s] reading manifest file '../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/SOURCES.txt'
+[0.594s] writing manifest file '../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info/SOURCES.txt'
+[0.594s] running build
+[0.594s] running build_py
+[0.594s] creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build
+[0.594s] creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib
+[0.595s] creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg
+[0.595s] copying testbed_rover_pkg/__init__.py -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg
+[0.595s] copying testbed_rover_pkg/testbed_rover.py -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg
+[0.595s] running install
+[0.595s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.595s]   warnings.warn(
+[0.595s] running install_lib
+[0.595s] creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg
+[0.595s] copying /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg/__init__.py -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg
+[0.595s] copying /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build/lib/testbed_rover_pkg/testbed_rover.py -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg
+[0.596s] byte-compiling /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg/__init__.py to __init__.cpython-310.pyc
+[0.596s] byte-compiling /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg/testbed_rover.py to testbed_rover.cpython-310.pyc
+[0.596s] running install_data
+[0.596s] creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/ament_index
+[0.596s] creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/ament_index/resource_index
+[0.596s] creating /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/ament_index/resource_index/packages
+[0.597s] copying resource/testbed_rover_pkg -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/ament_index/resource_index/packages
+[0.597s] copying package.xml -> /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/share/testbed_rover_pkg
+[0.597s] running install_egg_info
+[0.598s] Copying ../../build/testbed_rover_pkg/testbed_rover_pkg.egg-info to /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages/testbed_rover_pkg-0.0.0-py3.10.egg-info
+[0.598s] running install_scripts
+[0.612s] Installing testbed_rover script to /home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/testbed_rover_pkg
+[0.612s] writing list of installed files to '/home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/install.log'
+[0.631s] Invoked command in '/home/tristan/Documents/rover-Testbed/testbed_rover_ws/src/testbed_rover_pkg' returned '0': PYTHONPATH=/home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/prefix_override:/home/tristan/Documents/rover-Testbed/testbed_rover_ws/install/testbed_rover_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testbed_rover_pkg build --build-base /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/build install --record /home/tristan/Documents/rover-Testbed/testbed_rover_ws/build/testbed_rover_pkg/install.log --single-version-externally-managed
