@@ -77,10 +77,10 @@ class BaseStation(Node):
         right_y = self.gamepad.get_axis(3)
 
 
-        output = f'control,{round(left_x,4)},{round(left_y,4)},{round(right_x,4)},{round(right_y,4)}'
+        output = f'ctrl,{round(left_y,4)},{round(left_y,4)},{round(right_y,4)},{round(right_y,4)}'
 
         #print(f"[Controls] {output}", end="")
-        self.get_logger().info(f"[Controls] {output}")
+        self.get_logger().info(f"[Ctrl] {output}")
         # Create a string message object
         msg = String()
 
