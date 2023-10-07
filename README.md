@@ -34,6 +34,7 @@ The BaseStation computer will need several things.
 
  - Plug in Rover stuff
 	 - Connect the battery. Ensure it's charged and use the smaller size batteries, not the largest one. They should be ~14-16v. Ensure the battery is at least 50% charged to get nominal voltage.
+ - Turn on the Nuc
  - Connect BaseStation to other bullet through POE injector
 	 - BaseStation is connected to the LAN port on the injector
 	 - bullet is connected to the POE port on the injector
