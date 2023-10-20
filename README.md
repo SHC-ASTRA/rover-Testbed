@@ -70,4 +70,25 @@ The BaseStation computer will need several things.
 	 - Select the "D" control mode on the controller. 
 		 - Hold the button next to the symbols (windows, android, switch, etc...)
 		 - You'll need to release the button and press down again to cycle to the next mode
+  
+## Getting Camera Feed
+
+ - Ensure you're either connected directly to the Nuc/Testbed switch over ethernet or connected to an M2 bullet which has connection to the rover (red signal lights on)
+ - SSH to the testbed from the BaseStation computer
+	 - `ssh clucky@192.168.1.69`
+	 - Password: spaceiscool639
+
+ - Run `hostname -I`, and store the address IP that starts with `10.`, we'll use this later.
+ 
+ - `cd` into `basestation/cameras/mediamtx`
+ 	- Run this command to start the RTSP server and stream ffmpeg over it:
+  	`./mediamtx & ffmpeg -f v4l2 -i /dev/video0 -vcodec libx264 -r 30 -s 480x360 -preset ultrafast -tune:v zerolatency -threads 1 -f rtsp -rtsp_transport tcp rtsp://localhost:8554/cam1`
+
+- After running this command, SSH into the TestBed in a new terminal and follow these steps:
+	- `cd` into `basestation/cameras/RTSPtoWebRTC`
+ 		- Run this command: `GO111MODULE=on go run *.go`
+
+    	- Now, you should be able to get webcam stream over LAN by going to Chrome on your connected Base Station, and connect to
+     	`(The IP that starts with 10.):4000`
+      	- This page should have the camera feed on it!
 
